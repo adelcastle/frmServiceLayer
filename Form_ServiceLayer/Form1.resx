@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="txtResult.Text" xml:space="preserve">
+    <value>{
+   "odata.metadata":"https://localhost:50000/b1s/v1/$metadata#BusinessPartners",
+   "value":[
+      {
+         "CardCode":"C99998",
+         "CardName":"Cliente Web",
+         "CardType":"cCustomer",
+         "Phone1":null,
+         "SalesPersonCode":1,
+         "Currency":"##",
+         "City":null
+      },
+      {
+         "CardCode":"C20000",
+         "CardName":"Maxi-Teq",
+         "CardType":"cCustomer",
+         "Phone1":"+52 (55) 5565-9032",
+         "SalesPersonCode":1,
+         "Currency":"MXP",
+         "City":"Mexico D.F."
+      },
+      {
+         "CardCode":"L10002",
+         "CardName":"Werner Richter",
+         "CardType":"cLid",
+         "Phone1":"+52 (55) 5104-9190",
+         "SalesPersonCode":1,
+         "Currency":"MXP",
+         "City":"Mexico D.F."
+      },
+      {
+         "CardCode":"140495",
+         "CardName":"Kevin Alarcón",
+         "CardType":"cCustomer",
+         "Phone1":"76947118",
+         "SalesPersonCode":5,
+         "Currency":"##",
+         "City":null
+      },
+      {
+         "CardCode":"C60000",
+         "CardName":"SG Electronics",
+         "CardType":"cCustomer",
+         "Phone1":"+52 (55) 5980-7723",
+         "SalesPersonCode":5,
+         "Currency":"USD",
+         "City":"Toronto"
+      },
+      {
+         "CardCode":"V21000",
+         "CardName":"Sea Corp",
+         "CardType":"cSupplier",
+         "Phone1":"00421 2 683 42 27",
+         "SalesPersonCode":6,
+         "Currency":"EUR",
+         "City":"Bratislava"
+      },
+      {
+         "CardCode":"V10000",
+         "CardName":"Acme Associates",
+         "CardType":"cSupplier",
+         "Phone1":"+52 (444) 8917-3743",
+         "SalesPersonCode":6,
+         "Currency":"MXP",
+         "City":"Mexico D.F."
+      },
+      {
+         "CardCode":"C23900",
+         "CardName":"Parameter Technology",
+         "CardType":"cCustomer",
+         "Phone1":"+52 (55)  5654-7633",
+         "SalesPersonCode":4,
+         "Currency":"MXP",
+         "City":"Mexico D.F."
+      },
+      {
+         "CardCode":"C25000",
+         "CardName":"Star Company",
+         "CardType":"cCustomer",
+         "Phone1":"00421 2 582 56 33",
+         "SalesPersonCode":1,
+         "Currency":"EUR",
+         "City":"Bratislava"
+      },
+      {
+         "CardCode":"C26000",
+         "CardName":"River Inc",
+         "CardType":"cCustomer",
+         "Phone1":"0044 161 869 9000",
+         "SalesPersonCode":1,
+         "Currency":"MXP",
+         "City":"Manchester"
+      },
+      {
+         "CardCode":"V50000",
+         "CardName":"Lumarx",
+         "CardType":"cSupplier",
+         "Phone1":"+52 (55) 5290-3655",
+         "SalesPersonCode":6,
+         "Currency":"USD",
+         "City":"Victoria"
+      },
+      {
+         "CardCode":"V60000",
+         "CardName":"CTI Computers",
+         "CardType":"cSupplier",
+         "Phone1":"+52 (55) 5405-2342",
+         "SalesPersonCode":6,
+         "Currency":"MXP",
+         "City":"Mexico D.F."
+      },
+      {
+         "CardCode":"V70000",
+         "CardName":"SMD Technologies",
+         "CardType":"cSupplier",
+         "Phone1":"+52 (33) 5473-2234",
+         "SalesPersonCode":6,
+         "Currency":"MXP",
+         "City":"Mexico D.F."
+      },
+      {
+         "CardCode":"E00001",
+         "CardName":"Empleado 1",
+         "CardType":"cSupplier",
+         "Phone1":null,
+         "SalesPersonCode":-1,
+         "Currency":"##",
+         "City":null
+      },
+      {
+         "CardCode":"C40000",
+         "CardName":"Earthshaker Corporation",
+         "CardType":"cCustomer",
+         "Phone1":"+52 (55) 5632-3399",
+         "SalesPersonCode":3,
+         "Currency":"MXP",
+         "City":"Mexico D.F."
+      },
+      {
+         "CardCode":"C30000",
+         "CardName":"Microchips",
+         "CardType":"cCustomer",
+         "Phone1":"+52 (55) 5345-9000",
+         "SalesPersonCode":2,
+         "Currency":"MXP",
+         "City":"Mexico D.F."
+      },
+      {
+         "CardCode":"CA001",
+         "CardName":"Comtech",
+         "CardType":"cCustomer",
+         "Phone1":null,
+         "SalesPersonCode":9,
+         "Currency":"MXP",
+         "City":null
+      },
+      {
+         "CardCode":"A0001",
+         "CardName":"AADU",
+         "CardType":"cSupplier",
+         "Phone1":null,
+         "SalesPersonCode":-1,
+         "Currency":"##",
+         "City":null
+      },
+      {
+         "CardCode":"CL123456",
+         "CardName":"MUEBLERIA  ALARCON",
+         "CardType":"cCustomer",
+         "Phone1":"22492802",
+         "SalesPersonCode":8,
+         "Currency":"MXP",
+         "City":null
+      },
+      {
+         "CardCode":"L10001",
+         "CardName":"Andreas Ackermann",
+         "CardType":"cCustomer",
+         "Phone1":"+52 (33) 5229-8176",
+         "SalesPersonCode":1,
+         "Currency":"MXP",
+         "City":"Mexico D.F."
+      }
+   ],
+   "odata.nextLink":"BusinessPartners?$select=CardCode,CardName,CardType,Currency,Phone1,City,SalesPersonCode&amp;$skip=20"
+}</value>
+  </data>
+  <data name="txtJsonOrder.Text" xml:space="preserve">
+    <value>{
+	"CardCode": "C1111",
+	"DocDate": "2022-05-30",
+	"DocDueDate": "2022-05-30",
+	"DocType": "dDocument_Items",
+	"DocumentLines": [{            
+	"ItemCode": "A00001",
+        "Quantity": "2",
+        "TaxCode": "IVA",
+        "UnitPrice": "76756"},
+		{
+	"ItemCode": "A00002",
+        "Quantity": "1",
+        "TaxCode": "IVA",
+        "UnitPrice": "70756"
+		}]
+}</value>
+  </data>
+</root>
