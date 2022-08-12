@@ -402,7 +402,7 @@ namespace Form_ServiceLayer
 
     }
 
-
+    //clase para comvertir Datatable a lista
     public static class CommonMethod
     {
         public static List<T> ConvertToList<T>(DataTable dt)
